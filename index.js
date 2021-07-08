@@ -12,7 +12,7 @@ server.get('/api/hello', (req, res) => {
 })
 
 server.use('*', (req, res) => {
-  res.send(`<h1>Hello, there!</h1>`)
+  res.send(`<h1>Sup yall</h1>`)
 })
 
 server.use((err, req, res, next) => {
